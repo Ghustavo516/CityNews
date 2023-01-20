@@ -1,0 +1,335 @@
+nav{
+    width: auto;
+    height: 233px;
+    background: url(imagens/fundo.png);
+}
+
+
+.principal-container{
+    display: block;
+    margin: auto;
+    width: 792px;
+}
+.logo{
+    position: relative;
+    top: 25px;
+}
+
+.details{
+    position: relative;
+    left: 616px;
+    bottom: 67px;
+}
+.menu{
+    position: relative;
+    bottom: 130px;
+    width: 675px;
+    height: 46px;
+    background: #A70025;
+}
+
+.menu li{
+    display: inline-flex;
+    padding:  15px 19px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.divisor{
+    position: relative;
+    top: 3px;
+}
+
+#home:hover, #Brasil:hover, #International:hover, #Economic:hover, #saude:hover, #sciency:hover, #photo:hover{
+    background-color: #D6002D;
+}
+
+.first-container{
+    width: 800px;
+    height: 800px;
+    margin-top: 23px;
+    display: block;
+    margin: auto;
+}
+
+.interview-container{
+    background: url(imagens/fundo-caixa.png);   
+    width: 195px;
+    height:385px;
+
+}
+
+.title-interview{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5px;
+    display: block;
+    margin: auto;
+    width: 175px;
+    line-height: 30px;
+    position: relative;
+    top: 5px;
+    background: #1D3E63;
+    color: #F6F8FC;
+}
+
+.name-interview{
+    
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 180px;
+    height: 330px;
+    background: #FFFFFF;
+}
+
+.name-interview li{
+    border-bottom: 1px solid #e2e2e2;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.name-interview li:hover{
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat center left;
+    padding-left: 20px; 
+    color: #a1a1a1;
+}
+
+.contact{
+    margin-top: 20px;
+    background-color: #f7f3f3fa;
+    border-radius: 10px;
+    width: 195px;
+    height: 150px;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 10px;
+    left: 8px;
+    font-size: 18px;
+}
+
+textarea{
+    position: relative;
+    left: 8px;
+    top: 15px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    width: 170px;
+    resize: none;
+}
+
+button{
+    position: relative;
+    top: 18px;
+    left: 8px;
+    width: 170px;
+    height: 30px;
+    background-color: #A6032F;
+    color: #eeeeee;
+    border-color: #eb1a47;
+    border-radius: 5px;
+}
+
+.publication-container{
+    position: relative;
+    bottom: 553px;
+    left: 210px;
+    height: 800px;
+    width: 590px;
+}
+
+.first-line-publication{
+    display: inline-flex;
+    height: 338px;
+    margin-bottom: 15px;
+}
+
+.first-content-first-line{
+    width: 280px;
+    height: 338px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+.last-interview{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #1D3E63;
+    position: relative;
+    top: 3px;
+    font-weight: bold;
+    line-height: 8px;
+    font-size: 18px;
+    display: block;
+    padding: 12px;
+    margin: auto;
+    width: 242px;
+    color: #fff;
+}
+
+.section-container{
+    position: relative;
+    top: 11px;
+    display: block;
+    margin: auto;
+    width: 264px;
+    height: 285px;
+    background: #FFFFFF;
+}
+
+.autor-interview{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 195px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 13px;
+    line-height: 23px;
+    background-color: #D6002F;
+
+}
+
+.img-doctor{
+    position: relative;
+    top: 10px;
+    display: block;
+    margin: auto;
+    width: 255px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.first-content-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    width: 255px;
+
+}
+
+.see-more{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-decoration: underline;
+    color: #A70025;
+}
+
+.text-interview{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 195px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #A6032F;
+}
+
+.second-content-first-line{
+    margin-left: 25px;
+    width: 280px;
+    height: 338px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+
+.second-line-publication{
+    display: inline-flex;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 280px;
+    height: 338px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+.first-content-second-line{
+    width: 280px;
+    height: 400px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+.section-container-second-line{
+    position: relative;
+    top: 11px;
+    display: block;
+    margin: auto;
+    width: 264px;
+    height: 345px;
+    background: #FFFFFF;
+}
+.world-list li{
+    padding: 10px 0px;
+    border-bottom: 1px solid #e2e2e2;
+    height: 64px;
+}
+.world-list li:hover{
+    background: #e2e2e2;
+    cursor: pointer;
+}
+
+.img-world{
+    width: 90px;
+    height: 60px;
+}
+
+.title-world{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #26a8ee;
+
+    position: relative;
+    bottom: 61px;
+    left: 100px;
+}
+
+.text-word{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+    position: relative;
+    bottom: 59px;
+    left: 100px;
+
+    width: 160px;
+
+
+}
+
+
+
+.second-content-second-line{
+    margin-left: 30px;
+}
+
+footer{
+    background-color: #1D3E63;
+    color: #e2e2e2;
+    height: 60px;
+}
+
+footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+    display: block;
+    margin: auto;
+    width: 800px;
+
+    position: relative;
+    top: 20px;
+}
